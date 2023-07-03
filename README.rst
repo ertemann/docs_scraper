@@ -1,46 +1,29 @@
-.. These are examples of badges you might want to add to your README:
-   please update the URLs accordingly
-
-    .. image:: https://api.cirrus-ci.com/github/<USER>/docs_scraper.svg?branch=main
-        :alt: Built Status
-        :target: https://cirrus-ci.com/github/<USER>/docs_scraper
-    .. image:: https://readthedocs.org/projects/docs_scraper/badge/?version=latest
-        :alt: ReadTheDocs
-        :target: https://docs_scraper.readthedocs.io/en/stable/
-    .. image:: https://img.shields.io/coveralls/github/<USER>/docs_scraper/main.svg
-        :alt: Coveralls
-        :target: https://coveralls.io/r/<USER>/docs_scraper
-    .. image:: https://img.shields.io/pypi/v/docs_scraper.svg
-        :alt: PyPI-Server
-        :target: https://pypi.org/project/docs_scraper/
-    .. image:: https://img.shields.io/conda/vn/conda-forge/docs_scraper.svg
-        :alt: Conda-Forge
-        :target: https://anaconda.org/conda-forge/docs_scraper
-    .. image:: https://pepy.tech/badge/docs_scraper/month
-        :alt: Monthly Downloads
-        :target: https://pepy.tech/project/docs_scraper
-    .. image:: https://img.shields.io/twitter/url/http/shields.io.svg?style=social&label=Twitter
-        :alt: Twitter
-        :target: https://twitter.com/docs_scraper
-
-.. image:: https://img.shields.io/badge/-PyScaffold-005CA0?logo=pyscaffold
-    :alt: Project generated with PyScaffold
-    :target: https://pyscaffold.org/
-
-|
-
 ============
 docs_scraper
 ============
 
 
-    Add a short description here!
-
-
-A longer description of your project goes here...
-
+    small python script that allows you replace any exact string or search for occurance of any exact string.
 
 .. _pyscaffold-notes:
+
+```
+# Execution example - Replace
+
+old = "chat.scrt.network"
+new = "scrt.network/discord"
+docs_dir = "C:/projs/docs/"
+
+replace_exact(docs_dir, old, new)
+
+# Execution example - find
+
+exact_str = "v1.9"
+docs_dir = "C:/projs/docs/"
+
+occurance_list = find_exact (docs_dir, exact_str)
+
+```
 
 Note
 ====
