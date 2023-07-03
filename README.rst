@@ -5,9 +5,8 @@ docs_scraper
 
     small python script that allows you replace any exact string or search for occurance of any exact string.
 
-.. _pyscaffold-notes:
 
-```
+```python
 # Execution example - Replace
 
 old = "chat.scrt.network"
