@@ -1,9 +1,6 @@
-============
-docs_scraper
-============
+## Docs Scraper
 
-
-    small python script that allows you replace any exact string or search for occurance of any exact string.
+small python script that allows you replace any exact string or search for occurance of any exact string.
 
 
 ```python
